@@ -1,0 +1,31 @@
+{
+  "name": "hapi-profile",
+  "version": "1.0.0",
+  "description": "A hapi plugin that wraps async-profile to profile your routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nlf/hapi-profile.git"
+  },
+  "keywords": [
+    "hapi",
+    "profile"
+  ],
+  "author": "Nathan LaFreniere <quitlahok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlf/hapi-profile/issues"
+  },
+  "homepage": "https://github.com/nlf/hapi-profile",
+  "devDependencies": {
+    "code": "^1.3.0",
+    "hapi": "^8.1.0",
+    "lab": "^5.2.1"
+  },
+  "dependencies": {
+    "async-profile": "^0.4.0"
+  }
+}
